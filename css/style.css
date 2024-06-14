@@ -55,6 +55,10 @@
 }
 
 /* blog */
+#menu .container {
+  padding-top: 10%;
+}
+
 #menu .bg-image {
   background-image: image("img/bg-product.jpg");
 }
@@ -75,4 +79,10 @@
 a {
   text-decoration: none;
   color: chocolate;
+}
+
+#menu .poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
 }
