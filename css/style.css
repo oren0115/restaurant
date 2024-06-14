@@ -1,0 +1,78 @@
+/* navbar */
+#navbar .poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: aliceblue;
+}
+#navbar .poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: aliceblue;
+}
+.nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  left: 0;
+  bottom: -5px;
+  background: #ffffff;
+  transition: width 0.3s;
+}
+.nav-link:hover::after,
+.nav-link:focus::after,
+.nav-link.active::after {
+  width: 100%;
+}
+/* jumbotron */
+#jumbotron h1 {
+  padding-top: 13%;
+}
+#jumbotron p {
+  padding-bottom: 8%;
+}
+#jumbotron .col-md-4 {
+  padding-bottom: 6%;
+}
+#jumbotron .poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: aliceblue;
+}
+#jumbotron .poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: aliceblue;
+}
+
+/* blog */
+#menu .bg-image {
+  background-image: image("img/bg-product.jpg");
+}
+
+#menu .poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: aliceblue;
+}
+#menu .poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+  color: chocolate;
+}
