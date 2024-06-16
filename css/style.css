@@ -54,15 +54,11 @@
   color: aliceblue;
 }
 
-/* blog */
+/* menu */
 #menu .container {
   padding-top: 10%;
+  padding-bottom: 10%;
 }
-
-#menu .bg-image {
-  background-image: image("img/bg-product.jpg");
-}
-
 #menu .poppins-extrabold {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
@@ -87,6 +83,25 @@ a {
   font-style: italic;
 }
 
+/* reservation */
+#reservation {
+  background-color: #292828;
+  padding-bottom: 10%;
+}
+#reservation .poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: aliceblue;
+  padding-bottom: 2rem;
+}
+#reservation .poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: aliceblue;
+}
+
 /* review */
 #review .container {
   padding-top: 10%;
@@ -101,6 +116,64 @@ a {
   padding-bottom: 2rem;
 }
 #review .poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: aliceblue;
+}
+
+/* chef */
+#chef .container {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+#chef .poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: aliceblue;
+  padding-bottom: 2rem;
+}
+#chef .poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: aliceblue;
+}
+
+/* gallery */
+#gallery {
+  padding-bottom: 10%;
+  background-color: #292828;
+}
+#gallery .poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: aliceblue;
+  padding-bottom: 2rem;
+}
+#gallery .poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: aliceblue;
+}
+
+/* footer */
+footer {
+  background-color: #191919;
+  padding-top: 5%;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: aliceblue;
+  padding-bottom: 2rem;
+}
+.poppins-regular {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
